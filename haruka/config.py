@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "spider_binner"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://pikvtoqzwudhyb:d6899f405c6323883da99bf05333a22705fdcfb7c6312079ceafc0d5eeca861b@ec2-54-163-226-121.compute-1.amazonaws.com:5432/d8837iugqpt87f'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # needed for any database modules
     MESSAGE_DUMP = '-1234567890' # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'sed']
