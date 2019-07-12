@@ -10,22 +10,22 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
-    OWNER_ID = "656268508"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "shivamkchoudhary"
+    API_KEY = "854898207:AAEApr0vNNQJ3Ib9ulUzDVcbkqJMXM5dMZc"
+    OWNER_ID = "765989818"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "spider_binner"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
-    MESSAGE_DUMP = # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = 'postgres://pikvtoqzwudhyb:d6899f405c6323883da99bf05333a22705fdcfb7c6312079ceafc0d5eeca861b@ec2-54-163-226-121.compute-1.amazonaws.com:5432/d8837iugqpt87f'  # needed for any database modules
+    MESSAGE_DUMP = '-1234567890' # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'sed']
     WEBHOOK = ANYTHING
     URL = "https://thanosbots1.herokuapp.com/"
 
     # OPTIONAL
-    SUDO_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [765989818]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [765989818]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [765989818]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     MAPS_API = ''
     CERT_PATH = None
     PORT = 5000
